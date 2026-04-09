@@ -1,9 +1,17 @@
-# Yo Nunca Nunca — El Juego de Frases
+# Fran Martínez Torres — Salvatierra.digital
 
-Juego web interactivo con miles de frases para el clásico "Yo Nunca Nunca". Ideal para fiestas y reuniones.
+Landing page de redirección SEO hacia [**salvatierra.digital**](https://salvatierra.digital).
 
-**Jugar:** [franmartinez10.github.io](https://franmartinez10.github.io)
+Incluye datos estructurados JSON-LD, meta tags Open Graph, y canonical URL para maximizar el posicionamiento de **Fran Martínez Torres** y **Salvatierra.digital** en buscadores.
+
+## Links
+
+- **Web:** [salvatierra.digital](https://salvatierra.digital)
+- **LinkedIn:** [Fran Martínez Torres](https://linkedin.com/in/fran-martinez-torres-04008551)
+- **Medium:** [@estudio.salvatierra](https://medium.com/@estudio.salvatierra)
+- **Behance:** [fran_martinez10](https://behance.net/fran_martinez10)
+- **About.me:** [franmartineztorres](https://about.me/franmartineztorres)
 
 ---
 
-Desarrollado por [**Fran Martínez Torres**](https://github.com/Franmartinez10) — [Salvatierra.digital](https://salvatierra.digital)
+<sub>Fran Martínez Torres — Fundador de [Salvatierra.digital](https://salvatierra.digital) — Madrid, España</sub>

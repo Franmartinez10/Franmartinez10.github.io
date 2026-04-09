@@ -3,63 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yo Nunca Nunca - El Juego de Frases Más Divertido</title>
-    <meta name="description" content="Descubre miles de frases del popular juego 'Yo Nunca Nunca'. Elige una categoría o empieza con una frase aleatoria. ¡Ideal para fiestas y reuniones!">
+    <title>Fran Martínez Torres — Salvatierra.digital | Software a Medida, IA y Arquitectura Digital</title>
+    <meta name="description" content="Fran Martínez Torres es ingeniero de software y fundador de Salvatierra.digital — Estudio técnico especializado en software a medida, integración de IA y arquitectura digital en Madrid, España.">
+    <meta name="author" content="Fran Martínez Torres">
+    <meta name="keywords" content="Fran Martínez Torres, Salvatierra.digital, Estudio Salvatierra, software a medida, inteligencia artificial, arquitectura digital, desarrollo web, Flutter, Angular, Madrid, España">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Fran Martínez Torres — Salvatierra.digital">
+    <meta property="og:description" content="Software a Medida, IA y Arquitectura Digital. Estudio técnico fundado por Fran Martínez Torres.">
+    <meta property="og:url" content="https://salvatierra.digital">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Salvatierra.digital">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Fran Martínez Torres — Salvatierra.digital">
+    <meta name="twitter:description" content="Software a Medida, IA y Arquitectura Digital">
+
+    <!-- Canonical + Redirect -->
+    <link rel="canonical" href="https://salvatierra.digital">
+    <meta http-equiv="refresh" content="3;url=https://salvatierra.digital">
+
     <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            text-align: center;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            margin: 0;
-            padding: 40px 20px;
-            color: white;
+            background: #0d1117;
+            color: #e6edf3;
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
+            text-align: center;
+            padding: 2rem;
         }
-        .container {
-            max-width: 600px;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 50px;
-            border-radius: 20px;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
-        }
-        p {
-            font-size: 1.2rem;
-            line-height: 1.6;
-            margin-bottom: 40px;
-        }
+        .container { max-width: 600px; }
+        h1 { font-size: 2rem; margin-bottom: 0.5rem; font-weight: 700; }
+        .studio { color: #58a6ff; font-size: 1.1rem; margin-bottom: 1.5rem; }
+        .tagline { color: #8b949e; font-size: 1rem; line-height: 1.6; margin-bottom: 2rem; }
+        .redirect-notice { color: #8b949e; font-size: 0.85rem; margin-bottom: 2rem; }
         .btn {
             display: inline-block;
+            background: #238636;
+            color: #fff;
+            padding: 12px 32px;
+            border-radius: 6px;
             text-decoration: none;
-            background-color: #ff6b6b;
-            color: white;
-            padding: 20px 40px;
-            border-radius: 50px;
-            font-weight: bold;
-            font-size: 1.2rem;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+            font-weight: 600;
+            font-size: 1rem;
+            transition: background 0.2s;
         }
-        .btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(255, 107, 107, 0.6);
-        }
+        .btn:hover { background: #2ea043; }
+        .links { margin-top: 2rem; display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; }
+        .links a { color: #58a6ff; text-decoration: none; font-size: 0.9rem; }
+        .links a:hover { text-decoration: underline; }
     </style>
+
+    <!-- JSON-LD Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Fran Martínez Torres",
+        "url": "https://salvatierra.digital",
+        "jobTitle": "Software Engineer & Product Architect",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Salvatierra.digital",
+            "url": "https://salvatierra.digital"
+        },
+        "sameAs": [
+            "https://github.com/Franmartinez10",
+            "https://linkedin.com/in/fran-martinez-torres-04008551",
+            "https://medium.com/@estudio.salvatierra",
+            "https://behance.net/fran_martinez10",
+            "https://about.me/franmartineztorres"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Madrid",
+            "addressCountry": "ES"
+        },
+        "description": "Ingeniero de software y fundador de Salvatierra.digital. Especializado en software a medida, integración de IA y arquitectura digital."
+    }
+    </script>
 </head>
 <body>
     <div class="container">
-        <h1>🤫 Yo Nunca Nunca</h1>
-        <p>La colección de frases más grande para el juego de confesiones. Ideal para romper el hielo, animar fiestas y descubrir los secretos más divertidos de tus amigos.</p>
-        <a href="frases/1-yo-nunca-nunca-he-cantado-en-la-ducha-pensando-que-soy-una-e.html" class="btn">¡Empezar a Jugar!</a>
+        <h1>Fran Martínez Torres</h1>
+        <p class="studio">Salvatierra.digital</p>
+        <p class="tagline">Software a Medida, IA y Arquitectura Digital.<br>Diseño sistemas preparados para el futuro de la búsqueda.</p>
+        <p class="redirect-notice">Redirigiendo a salvatierra.digital en 3 segundos...</p>
+        <a href="https://salvatierra.digital" class="btn">Ir a Salvatierra.digital</a>
+        <div class="links">
+            <a href="https://linkedin.com/in/fran-martinez-torres-04008551">LinkedIn</a>
+            <a href="https://medium.com/@estudio.salvatierra">Medium</a>
+            <a href="https://behance.net/fran_martinez10">Behance</a>
+            <a href="https://about.me/franmartineztorres">About.me</a>
+            <a href="https://github.com/Franmartinez10">GitHub</a>
+        </div>
     </div>
 </body>
 </html>
