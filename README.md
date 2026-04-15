@@ -1,8 +1,7 @@
 # Fran Martínez Torres — Salvatierra.digital
 
-Landing page de redirección SEO hacia [**salvatierra.digital**](https://salvatierra.digital).
+Landing page de [**salvatierra.digital**](https://salvatierra.digital).
 
-Incluye datos estructurados JSON-LD, meta tags Open Graph, y canonical URL para maximizar el posicionamiento de **Fran Martínez Torres** y **Salvatierra.digital** en buscadores.
 
 ## Links
 
